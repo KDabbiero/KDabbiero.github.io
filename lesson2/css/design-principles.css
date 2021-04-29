@@ -1,0 +1,37 @@
+header {
+    background-color: #30362f;
+    color: #f6f3df;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #625834;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    background-color: #a59132;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content p {
+    text-align: center;
+}
+
+footer {
+    background-color: #30362f;
+    color: #f6f3df;
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+footer a {
+    color: #f6f3df;
+}
