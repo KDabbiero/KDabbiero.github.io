@@ -1,7 +1,6 @@
 header {
     background-color: #30362f;
     color: #f6f3df;
-    border-radius: 8px;
 }
 
 body {
@@ -15,20 +14,25 @@ h1 {
 .content {
     background-color: #a59132;
     color: black;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-around;
 }
 
-.content p {
+.header_container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #a59132;
     text-align: center;
+    color: black;
+}
+
+.rule_of_threes p {
+    border-radius: 8px;
+    background-color: #f6f3df;
 }
 
 footer {
     background-color: #30362f;
     color: #f6f3df;
     text-align: center;
-    border-radius: 8px;
     padding: 15px;
 }
 

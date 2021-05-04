@@ -7,6 +7,9 @@ header {
 
 body {
     background-color: #625834;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
