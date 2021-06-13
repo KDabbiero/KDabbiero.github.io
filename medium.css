@@ -1,0 +1,35 @@
+@media only screen and (min-width: 40em) {
+
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        border-radius: 10px;
+        width: 40em;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        border-radius: 10px;
+    }
+
+    header img {
+        float: right;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    footer {
+        border-radius: 10px;
+    }
+}

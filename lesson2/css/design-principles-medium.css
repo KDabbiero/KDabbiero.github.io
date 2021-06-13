@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        border-radius: 8px;
+    }
+
+    .header_container {
+        grid-template-columns: auto auto;
+    }
+
+    footer {
+        border-radius: 8px;
+    }
+}
