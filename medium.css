@@ -24,8 +24,8 @@
     }
 
     header img {
-        float: inherit;
-        position:fixed;
+        float: right;
+        position: absolute;
         border-radius: 10px;
     }
 

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 758px) {
+@media only screen and (min-width: 750px) {
 
     body {
         display: grid;
@@ -8,7 +8,6 @@
 
     header {
         border-radius: 10px;
-        width: 758px;
     }
 
     h1 {
