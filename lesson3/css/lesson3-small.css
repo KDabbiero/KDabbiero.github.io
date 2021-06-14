@@ -1,0 +1,43 @@
+/* small view will stack the menu items in a block not horizontally */
+
+.header_container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #0d0106;
+}
+
+.header_container ul li a {
+    display: flex;
+    background-color: #f6bf51;
+    color: #0d0106;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header_container ul li {
+    border-bottom: 1px solid #0d0106;
+}
+
+.header_logo img {
+    height: 55px;
+    width: 55px;
+    float: right;
+    border:1px solid #eef5db;
+}
+
+body {
+    background-color: #084c61;
+    color: #eef5db;
+}
+
+footer {
+    background-color: #f6bf51;
+    color: #0d0106;
+    text-align: center;
+    border-radius: 0px;
+}
+
+footer a {
+    color: #0d0106;
+}
