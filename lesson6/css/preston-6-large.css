@@ -1,0 +1,35 @@
+@media only screen and (min-width: 750px) {
+	/* .header_container.responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.header_container a {
+		display: flex;
+		background-color: #f6bf51;
+		color: #0d0106;
+		justify-content: center;
+		padding: 10px;
+		border: black;
+		border-style: solid;
+	}
+
+	.header_container.responsive a {
+		display: flex;
+		flex-direction: row;
+		background-color: #f6bf51;
+		justify-content: space-evenly;
+	} */
+
+	footer {
+		display: block;
+		margin: auto;
+		width: 75%;
+	}
+	/* .franklinOriginal img {
+		display: block;
+		margin: auto;
+		height: 265px;
+		width: auto;
+	} */
+}
