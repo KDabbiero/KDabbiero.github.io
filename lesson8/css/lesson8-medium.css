@@ -1,0 +1,15 @@
+/* display the menu horizontally */
+@media only screen and (min-width: 32.5em) {
+
+    .header_container ul {
+        display: flex;
+        flex-direction:row;
+        background-color: #f6bf51;
+        justify-content: space-evenly;
+    }
+
+    .header_container ul li {
+        border-bottom: none;
+    }
+
+}
