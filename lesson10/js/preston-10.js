@@ -43,7 +43,7 @@ function dayOfWeekBanner() {
 
 dayOfWeekBanner();
 
-const apiUrl = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e509f029ffaeab7cad3181c2a7e3f38f";
+const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e509f029ffaeab7cad3181c2a7e3f38f";
 fetch(apiUrl)
   .then((response) => response.json())
   .then((jsObject) => {
