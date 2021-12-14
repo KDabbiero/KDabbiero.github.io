@@ -1,0 +1,120 @@
+@media only screen and (min-width: 750px) {
+	/* .header_container.responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.header_container a {
+		display: flex;
+		background-color: #f6bf51;
+		color: #0d0106;
+		justify-content: center;
+		padding: 10px;
+		border: black;
+		border-style: solid;
+	}
+
+	.header_container.responsive a {
+		display: flex;
+		flex-direction: row;
+		background-color: #f6bf51;
+		justify-content: space-evenly;
+	} */
+
+	h3 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.content-main {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: stretch;
+		justify-content: space-evenly;
+		padding: 20px;
+	}
+
+	.towns p {
+		text-align: center;
+	}
+
+	/* .towns img {
+		display: flex;
+		justify-items: baseline;
+		align-self: baseline;
+		width: 75%;
+		height: 250px;
+	} */
+
+	.towns {
+		display: flex;
+		/* padding: 10px; */
+	}
+
+	.test {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.test1 img {
+		width: 300px;
+		height: 250px;
+	}
+
+	.towns section {
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		background-color: #f6bf51;
+		min-width: 300px;
+		min-height: 500px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		align-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.events {
+		display: flex;
+		justify-content: center;
+		background-color: #f6bf51;
+		color: eef5db;
+		width: 300px;
+		max-height: 550px;
+		padding: 10px;
+	}
+
+	.events section {
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		align-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		border-style: double;
+		border-color: black;
+		justify-content: flex-start;
+	}
+
+	.article {
+		/* display: flex;
+		justify-content: center; */
+		background-color: #eef5db;
+		color: black;
+		width: 300px;
+		max-height: 550px;
+		padding: 10px;
+	}
+
+	/* .towns section:nth-child(odd) {
+		flex-direction: ;
+	} */
+
+	footer {
+		display: block;
+		margin: auto;
+		width: 75%;
+	}
+}

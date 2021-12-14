@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 6: Preston Idaho</title>
+        <!-- mycurrentlocalweather.com -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is the website planning document for the Weather Site project.">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/preston-9-small.css">
+        <link rel="stylesheet" href="css/preston-9-medium.css">
+        <link rel="stylesheet" href="css/preston-9-large.css">
+        <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+        <script src="js/fish_haven.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <p id="banner-message"></p>
+            </div>
+            <div class="header_logo">
+                <h1>My Current Local Weather
+                <img src="images/weather_logo.png" alt="Weather logo."></h1>
+                <div>Where Weather Works</div>
+            </div>
+            <div id="menu_dropdown">
+                <span>Menu</span>
+                <div class="header_container" id = "menu">
+                        <a href="../lesson10/index.html">Home</a>
+                        <a href="index.html" >Preston</a>
+                        <a href="soda_springs.html">Soda Springs</a>
+                        <a href="fish_haven.html" class="active">Fish Haven</a>
+                        <a href="../lesson8/index.html">Storm Center</a>
+                        <a href="../lesson7/index.html">Gallery</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2>Fish Haven</h2>
+            <div class="cc-ws">
+            <picture class="franklinOriginal">
+                <source media="(min-width:750px)" srcset="images/wdd230_image_franklinOriginal_large.jpg">
+                <source media="(min-width:550px)" srcset="images/wdd230_image_franklinOriginal_medium.jpg">
+                <img src="images/wdd230_image_franklinOriginal_small.jpg" alt="Flowers" style="width:auto;">
+            </picture>
+            
+                <div class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p >Currently: <span id="current">Sunny</span></p>
+                    <p>High: <span id="high">40</span>&degF</p>
+                    <p>Wind Chill: <span id="wind_chill">N/A</span>&degF</p>
+                    <p>Humidity: <span id="humidity">80</span>%</p>
+                    <p>Wind Speed: <span id="wind_speed">5</span>mph</p>
+                </div>
+            </div>
+            <h3>5 Day Weather Forecast</h3>
+            <div class="forecast_grid">
+                <table>
+                    <tr>
+                      <th>Mon</th>
+                      <th>Tue</th>
+                      <th>Wed</th>
+                      <th>Thu</th>
+                      <th>Fri</th>
+                    </tr>
+                    <tr>
+                      <td><img class="weather_icon" id="mon" src="images/198911.png" alt="Weather icon"><span id="tempM">89</span>&degF</td>
+                      <td><img class="weather_icon" id="tue" src="images/198911.png" alt="Weather icon"><span id="tempT">70</span>&degF</td>
+                      <td><img class="weather_icon" id="wed" src="images/198911.png" alt="Weather icon"><span id="tempW">75</span>&degF</td>
+                      <td><img class="weather_icon" id="thu"src="images/198911.png" alt="Weather icon"><span id="tempR">82</span>&degF</td>
+                      <td><img class="weather_icon" id="fri"src="images/198911.png" alt="Weather icon"><span id="tempF">73</span>&degF</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="content-main">
+                <div class="towns"></div>
+                <div class="article">
+                    <h2>Emergency Preparation</h2>
+                    <p>Members of the Church have been counseled for many years to be prepared for adversity. Preparation, both spiritual and temporal, can dispel fear (see Doctrine and Covenants 38:30).</p>
+
+                    <p>Elder L. Tom Perry taught, “The need for preparation is abundantly clear. The great blessing of being prepared gives us freedom from fear” (“If Ye Are Prepared Ye Shall Not Fear,” Ensign, Nov. 1995, 36).</p>
+                        
+                    <p>With the guidance of Church leaders, individuals and families should prepare to be self-reliant in times of personal and widespread tragedy <a href="https://www.churchofjesuschrist.org/study/manual/gospel-topics/emergency-preparedness?lang=eng"">(Continue Reading).</a> ></p>
+                </div>
+                <div class="events"></div>
+            </div>
+        </div>
+        </main>
+        <footer>
+            &copy;<span id="year"></span>| Katelyn Dabbiero | Utah/Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <p id="currentDate"></p>
+            <p>Last Modified: <span id="mod"></span></p>      
+        </footer>
+    </body>
+</html>
