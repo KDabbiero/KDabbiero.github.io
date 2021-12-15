@@ -1,0 +1,7 @@
+/* display the menu horizontally */
+@media only screen and (min-width: 550px) {
+	#menu_dropdown:hover .header_container {
+		display: flex;
+		flex-direction: row;
+	}
+}

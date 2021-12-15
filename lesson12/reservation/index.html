@@ -1,0 +1,71 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+        <title>Temple Inn & Suites</title>
+        <!-- mycurrentlocalweather.com -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is the website planning document for the Weather Site project.">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="../reservation/css/reservation-small.css">
+        <link rel="stylesheet" href="../reservation/css/reservation-medium.css">
+        <link rel="stylesheet" href="../reservation/css/reservation-large.css">
+        <script src="js/reservation.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header_logo">
+                <h1>Temple Inn & Suites
+                <img src="../images/church.png" alt="Church logo."></h1>
+                <div>You're always close to home.</div>
+            </div>
+            <div id="menu_dropdown">
+                <span>Menu</span>
+                <div class="header_container" id = "menu">
+                        <a href="../index.html">Home</a>
+                        <a href="reservation/index.html" class="active">Reservation</a>
+                        <a href="temple/index.html">Temple</a>
+                        <a href="services/index.html">Services</a>
+                        <a href="../services/receptions.html" >Receptions</a>
+                        <a href="../services/missionary.html">Missionary</a>
+                </div>
+            </div>
+        </header>
+        <main>
+        <form>
+            <label for="fname">Full Name:</label required><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label>eMail:</label><br>
+                <input type="email" name="email" placeholder="user@email.org"><br>
+            <label>Phone:</label><br>
+                <input type="tel" name="phone" required><br>
+            <label for="location">Location:</label required><br>
+                <input type="text" id="location" name="location" required><br>
+            <label for="guests">Number of Guests:</label required><br>
+                <input type="number" id="guests" name="guests" required><br>
+            <label>Date:</label><br>
+                <input type="date" name="date"><br>
+            <label for="room-type">Room Type:</label><br>
+                <input list="room-types" id="room-type" name="room-type" />
+                <datalist id="room-types">
+                    <option value="Double Queen">
+                    <option value="Single Queen">
+                    <option value="Single King">
+                    <option value="Suite">
+                </datalist><br>
+            <label for="location">Home State:</label required><br>
+                <input type="text" id="home" name="home" required><br>
+                <label for="comments">Additional Information or Comments:</label><br>
+                <textarea id="comments" name="cpmments" rows="4" cols="40">
+                </textarea><br>
+                <input type="submit" class="sbutton"  onclick="window.location.href = 'thankyou.html'"><br>
+        </form>
+        </main>
+        <footer>
+            &copy;<span id="year"></span>| Katelyn Dabbiero | Utah/Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <p id="currentDate"></p>
+            <p>Last Modified: <span id="mod"></span></p>      
+        </footer>
+    </body>
+</html>
